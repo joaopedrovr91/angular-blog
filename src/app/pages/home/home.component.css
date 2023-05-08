@@ -4,3 +4,9 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+.articles__main {
+  margin-bottom: 20px;
+  height: 850px;
+  width: 90%;
+}

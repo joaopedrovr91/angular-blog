@@ -1,0 +1,14 @@
+@media screen and (max-width:1200px) {
+  .container__menu-bar-references h3{
+    font-size: medium;
+    margin-right: 10px;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .container__menu-bar-button{
+    padding: 5px;
+    font-size: small;
+  }
+}

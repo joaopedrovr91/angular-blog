@@ -1,9 +1,10 @@
 *{
   margin:0;
   padding: 0;
+
   box-sizing: border-box;
-  background-color: #e5e6ed;
-  color: #131415;
+  background-color: rgb(248, 248, 248);
+  color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

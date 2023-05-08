@@ -1,5 +1,23 @@
-@media screen and (max-width:600px) {
-  .container__menu-title > h1 {
+@media screen and (min-width:768px) {
+  .container__menu-title h1 {
     font-size: 50px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .container__menu-title > h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .container__menu-title > h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width:1920px) {
+  .container__menu-title > h1 {
+    font-size: 130px;
   }
 }

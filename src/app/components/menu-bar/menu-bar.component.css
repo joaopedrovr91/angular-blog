@@ -1,9 +1,27 @@
 .container__menu-bar > ul{
   display: flex;
-  flex-direction: row;
 }
 
-.container__menu-bar > ul > li{
-  margin-right: 20px;
-  list-style: none;
+.container__menu-bar-button{
+  color: black;
+  border-radius: 0.5rem;
+  border: seashell;
+  background-color: white;
+  padding: 10px;
+  font-size: medium;
+  margin-right: 10px;
+}
+.container__menu-bar-button:hover{
+  color: white;
+  background-color: darkturquoise;
+}
+
+.container__menu-bar-references {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.container__menu-bar-references h3{
+  margin-right: 15px;
 }

@@ -1,0 +1,5 @@
+@media screen and (min-width:1200px) {
+  .small-card__title > h1 > a{
+    font-size: 35px;
+  }
+}

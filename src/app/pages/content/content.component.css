@@ -1,26 +1,18 @@
 .container__content {
   border:solid white 1px;
-  width: 100%;
-  height: 100vh;
-
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
 
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
-.content__cover {
-border: 1px solid grey;
-}
 
 .content__cover > img{
-  border: 5px solid rgb(144, 144, 144);
+  border: 3px solid rgb(144, 144, 144);
   border-radius: 5px;
-  width: 500px;
-  min-width: 300px;
-  height: 300px;
 }
 
 .content__description {
@@ -28,6 +20,26 @@ border: 1px solid grey;
 }
 
 .content__description > p {
-  margin-top: 15px;
-  color: grey;
+  margin-top: 30px;
+  color: rgb(63, 63, 63);
+}
+
+.content__title {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.content__button {
+  color: black;
+  border-radius: 0.5rem;
+  border: seashell;
+  background-color: white;
+  padding: 10px;
+  font-size: medium;
+  margin-top: 30px;
+}
+
+.content__button:hover {
+  color: white;
+  background-color: darkturquoise;
 }
