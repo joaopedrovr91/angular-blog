@@ -2,27 +2,21 @@
 <div class="container__articles">
   <div class="articles__main">
     <app-big-card
-    Id="1"
-    photoCover="https://diariodeuberlandia.com.br/images/noticias/33546/06055442_img_0070.jpg"
-    cardTitle="Praia Clube decide título da Superliga contra o Minas neste domingo (7)"
-    cardDescription="O Praia Clube, enfim, bateu o Minas em uma decisão de Superliga feminina de vôlei e sagrou-se campeão da edição 2022/2023."></app-big-card>
+    *ngFor="let cardBig of cardsBig"
+    [Id]="cardBig.id"
+    [cardDescription]="cardBig.description"
+    [photoCover]="cardBig.photoCover"
+    [cardTitle]="cardBig.title"
+    [Card]="cardBig.card"
+    ></app-big-card>
 
   </div>
   <div class="articles__others">
     <app-small-card
-    Id="2"
-    cardTitle="Representantes de associações parceiras da Futel são convocados pela seleção de bocha paralímpica"
-    photoCover="https://www.uberlandia.mg.gov.br/wp-content/uploads/2023/05/Bocha-Mateus-Oscar-e-Glenio.jpg">
-    </app-small-card>
-    <app-small-card
-    Id="3"
-    cardTitle="Cineteatro Nininha Rocha recebe o espetáculo “Melhores Irmãos” neste fim de semana"
-    photoCover="https://diariodeuberlandia.com.br/images/noticias/33448/19041804_Teatro.jpg">
-    </app-small-card>
-    <app-small-card
-    Id="4"
-    cardTitle="Shows com Gusttavo Lima e Ana Castela, espetáculos teatrais e mais: veja opções para o fim de semana, em Uberlândia"
-    photoCover="https://diariodeuberlandia.com.br/images/noticias/33404/13045211_WhatsApp_I.jpeg">
-    </app-small-card>
+    *ngFor="let cardSmall of cardsSmall"
+    [Id]="cardSmall.id"
+    [Card]="cardSmall.card"
+    [photoCover]="cardSmall.photoCover"
+    [cardTitle]="cardSmall.title"></app-small-card>
   </div>
 </div>
